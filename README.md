@@ -1,30 +1,39 @@
-Lab1
-====
+Lab 0: Hello World
+===
 
-Homework
+Welcome to MobileProto! This is a simple HelloWorld app to make sure that your system is configured correctly.
+
+First, fork this repo on Github and clone it to your computer.
+
+Forking
 ---
+To do this, first login to Github go to the [MobileProto Github page](http://github.com/mobileproto).
 
-For homework, we are going to ask you guys to create a simple to do list. You can find [the example demo here](https://vimeo.com/74014220). To start the lab, fork and clone Lab1. It has all the files from a finished Lab 0.5, which will help you out as a starting point.
+Next, you are going to _fork_ this repo, meaning that you are going to create your own copy to work off of. To do this, navigate to the Lab0 repository (repo for short) and click the fork button in the upper right hand corner.
 
-To break the homework down into more detail, the specs are:
-* 1 Activity / View
-* 1 Text field with a character limit of 10 characters
-* A button to add a new task
-* Labels for the tasks (which you made in the layouts above, they say "Click the button to go back to activity 1")
-* Delete buttons to delete the tasks that you have added
+![alt text](https://raw.github.com/mobileproto/ReadmeFiles/master/Lab0Files/forking.png "forking")
 
-Some useful hints. First of all, you know most of this stuff, since we just covered it in Lab 0.5. Look back at what we did for reference.
-* The add button and delete buttons will need an onClickListener. The add button will add a new label to the view and the delete buttons will delete labels from the views
-* Check out the [layouts tutorial, especially the list views portion](http://developer.android.com/guide/topics/ui/layout/listview.html) since a to-do list can be done with a listview
-* The text field can be added via xml using a textfield item. You can google for the syntax. Here is a place to get you started.
+Cloning
+---
+Once you fork the repo, the next step is to clone it. To do this, go to the clone URL in the middle of the righthand toolbar.
+
+![alt text](https://raw.github.com/mobileproto/ReadmeFiles/master/Lab0Files/cloning.png "cloning")
+
+Then open up your terminal. Navigate to where you want to store this app on your computer. In your terminal, _clone_ the repo by typing, replacing YOUR_USERNAME with your github username (:
 
 ```
-<EditText android:id="@+id/edit_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_message" />
+git clone https://github.com/YOUR_USERNAME/Lab0.git
 ```
 
-Check out [the Android tutorial site](http://developer.android.com/training/basics/firstapp/building-ui.html#TextInput) for more info on text fields
+Running the HelloWorld App
+---
+Next, open up Android Studio.
 
-Tim, Evan, and Juliana will be in SF from Thursday - Sunday, which is why we are giving you guys a challenging homework assignment. Google for answers first, then email us, text us, find us in EH. Along with our usual office hours, we will set up another time to either hold Google hangout office hours or have office hours on Sunday night.
+1. Click _Open Project_
+2. Click through the steps. Since this is acomplete project with no outside dependencies, you should not need to modify any of the imports.
+3. One the app opens, it will look like this. Notice the Lab0 header on the top of Android Studio. ![alt text](https://raw.github.com/mobileproto/ReadmeFiles/master/Lab0Files/androidstudio.png "android")
+4. Lastly, press Run and watch your Android emulator open to the HelloWorld app
+![alt text](https://raw.github.com/mobileproto/ReadmeFiles/master/Lab0Files/run.png "running") 
+
+W000000! You just ran your first Android app.
+-----
